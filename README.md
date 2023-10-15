@@ -27,9 +27,9 @@ A sample of the above settings is as shown:
 ![Sample Skraper Settings for Media Tab](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/sample-skraper-settings.png)
 
 ## Stage 2 - Convert PNGs to JPGs w/ optional Clean-Up (Not Required)
-### Note: This stage is **completely optional**. It can reduce the file size and should be slightly more efficient. Once again, **this is optional** and comes down to personal preference.
+### Note: This stage is **completely optional**. It will reduce the file size and should be (in theory) slightly more efficient on the limited hardware provided by the RG Nano. Once again, **this is optional** and comes down to personal preference.
 
-The PowerShell script included creates JPG images (required for RG Nano) rom the Skraper provided PNG images and optionally purges PNG files as they are created.
+The **[PowerShell script](https://github.com/tobio-tenma/rg-nano-skraper-mix/blob/main/New-JpgsFromSkraper.ps1) creates JPG images from Skraper's PNG images. There is functinoality built-in to optionally purge the PNG files as after each successful JPG creation.
 
 ### Instructions ###
 
@@ -69,4 +69,4 @@ Here is what it should like when it's all said and done:
 
 ## Acknowledgements
 
-**HUGE** thanks to **[ebzero](https://github.com/ebzero)** for the original [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix). It was viewing his work that inspired the transformation for the RG Nano! Consider giving a high-five, buying this [awesome creator](https://github.com/ebzero) a coffee, or simply a shout out for making the code available for the benefit of the community.
+**HUGE** thanks to **[ebzero](https://github.com/ebzero)** for the original [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix). It was viewing his work that inspired the transformation for the RG Nano! Consider giving a high-five, buying this [awesome creator](https://github.com/ebzero) a coffee, or simply giving a shout out for making the code available for all to the benefit the retro handheld community.

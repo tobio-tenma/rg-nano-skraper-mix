@@ -69,4 +69,4 @@ Here is what it should like when it's all said and done:
 
 ## Acknowledgements
 
-**HUGE** thanks to **[ebzero](https://github.com/ebzero)** for the original [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix). It was viewing his work that inspired me to clone and modify for the RG Nano!. Please consider buying this [awesome creator](https://github.com/ebzero) a coffee giving or giving a shout out for making the code available!
+**HUGE** thanks to **[ebzero](https://github.com/ebzero)** for the original [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix). It was viewing his work that inspired the transformation for the RG Nano! Consider giving a high-five, buying this [awesome creator](https://github.com/ebzero) a coffee, or simply a shout out for making the code available for the benefit of the community.

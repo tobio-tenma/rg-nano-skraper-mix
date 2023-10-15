@@ -1,10 +1,18 @@
-# RG Nano Mix (forked from [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix) by ebzero)
+# RG Nano Skraper Mix
+## Inspired by Tiny Best Set and forked from [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix) by **[ebzero](https://github.com/ebzero)**!
 
-If you've ever tried to generate media for your game collection for the RG Nano, you may be shocked when you view the results. This should pretty much sum up the experience:
+If you've ever tried to generate media for your game collection on the RG Nano, you may have beeb shocked when you saw the results. This pretty much summs up the experience:
 
-![What's this? A game list for ANTS?!?](https://github.com/tobio-tenma/.assets/blob/main/rg-nano-mix/gamelist-for-ants.jpg)
+![What's this? A game list for ANTS?!?](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/gamelist-for-ants.jpg)
 
-Use this mix for generating media for your RG Nano. The game logos are scaled to be viewable by human eyes while also providing a screenshot of said game.
+Use this mix to generating media for your RG Nano. The game logos are scaled to be viewable by human eyes while also providing a screenshot of said game.
+
+Here is some sample output created by the RG Nano mix.:
+
+|                                       |                                       |                                       |
+|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
+|![Kirby's Dream Land 2](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/kirbys-dream-land-2.jpg "Kirby's Dream Land 2")|![Harvest Moon](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/harvest-moon.jpg "Harvest Moon")|![Streets of Rage 2](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/streets-of-rage-2.jpg "Streets of Rage 2")|
+|![Earthbound](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/earthbound.jpg "Earthbound")|![Duck Tales](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/duck-tales.jpg "Duck Tales")|![Fantastic Night Dreams Cotton](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/fantastic-night-dreams-cotton.jpg "Fantastic Night Dreams Cotton")|
 
 ## Stage 1 - Scrape Your Media with the Template Using Skraper
 
@@ -16,10 +24,10 @@ Here is what's different from the original instructions. This all on the *Media*
 
 A sample of the above settings is as shown:
 
-![Sample Skraper Settings for Media Tab](https://github.com/tobio-tenma/.assets/blob/main/rg-nano-mix/sample-skraper-settings.png)
-
+![Sample Skraper Settings for Media Tab](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/sample-skraper-settings.png)
 
 ## Stage 2 - Convert PNGs to JPGs and Maybe Clean Up
+### Note: This stage is **completely optional** but does drastically reduce the file size and should be in thoery slightly more efficient than the lossless PNG images produced by Skraper.
 
 The PowerShell script included creates JPG images (required for RG Nano) rom the Skraper provided PNG images and optionally purges PNG files as they are created.
 
@@ -34,7 +42,7 @@ The PowerShell script included creates JPG images (required for RG Nano) rom the
 
 Creates JPGs from the PNG files. No cleanup is performed:
 ```
-.\New-JpgsFromSkraper.ps1 "E:\
+.\New-JpgsFromSkraper.ps1 "E:\"
 ```
 Note: The "E:\" could be different depending on your system configuration. Please double check to avoid issues.
 
@@ -55,10 +63,10 @@ After running the script, your RG Nano / micro SD card can be safely ejected and
 
 Here is what it should like when it's all said and done:
 
-![Sample 1](https://github.com/tobio-tenma/.assets/blob/main/rg-nano-mix/sample-1.jpg)
-![Sample 2](https://github.com/tobio-tenma/.assets/blob/main/rg-nano-mix/sample-2.jpg)
-![Sample 3](https://github.com/tobio-tenma/.assets/blob/main/rg-nano-mix/sample-3.jpg)
+|                                       |                                       |                                       |
+|:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
+|![Sample 1](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/sample-1.jpg "Sample 1")|![Sample 2](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/sample-2.jpg "Sample 2")|![Sample 3](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/sample-3.jpg "Sample 3")|
 
 ## Acknowledgements
 
-HUGE thanks to [ebzero](https://github.com/ebzero) for the original [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix). It was viewing his work that inspired me to clone and modify for the RG Nano!. Please consider buying this [awesome creator](https://github.com/ebzero) a coffee giving or giving a shout out for making the code available helping the retro handheld community!
+**HUGE** thanks to **[ebzero](https://github.com/ebzero)** for the original [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix). It was viewing his work that inspired me to clone and modify for the RG Nano!. Please consider buying this [awesome creator](https://github.com/ebzero) a coffee giving or giving a shout out for making the code available!

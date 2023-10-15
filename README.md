@@ -16,7 +16,7 @@ Here is some sample output created by the RG Nano Skraper Mix:
 
 ## Stage 1 - Scrape Your Media with the Template Using Skraper
 
-Generally, you want to follow the excellent instructions created by [EB Zero](https://github.com/ebzero) and simply select the RG Nano XML template rather than the one made for Garlic/Onion.
+Generally, you want to follow the **[excellent instructions](https://github.com/ebzero/garlic-onion-skraper-mix#garlic-onion-skraper-mix)** created by [EB Zero](https://github.com/ebzero) and simply select the RG Nano XML template rather than the one made for Garlic/Onion devices.
 
 Here is what's different from the original instructions. This all on the *Media* tab:
 - **Output folder** should be set to **`%ROMROOTFOLDER%`**.
@@ -26,8 +26,8 @@ A sample of the above settings is as shown:
 
 ![Sample Skraper Settings for Media Tab](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/sample-skraper-settings.png)
 
-## Stage 2 - Convert PNGs to JPGs with Optional Clean-Up
-### Note: This stage is **completely optional**. It can reduce the file size and should be in thoery slightly more efficient. Once again, **this is optional** and comes down to personal preference.
+## Stage 2 - Convert PNGs to JPGs w/ optional Clean-Up (Not Required)
+### Note: This stage is **completely optional**. It can reduce the file size and should be slightly more efficient. Once again, **this is optional** and comes down to personal preference.
 
 The PowerShell script included creates JPG images (required for RG Nano) rom the Skraper provided PNG images and optionally purges PNG files as they are created.
 

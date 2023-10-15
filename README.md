@@ -5,9 +5,9 @@ If you've ever tried to generate media for your game collection on the RG Nano, 
 
 ![What's this? A game list for ANTS?!?](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/gamelist-for-ants.jpg)
 
-Use this mix to generating media for your RG Nano. The game logos are scaled to be viewable by human eyes while also providing a screenshot of said game.
+Use this mix to generate media (example below) for your RG Nano. The game logos are scaled to be easier on the eyes while also including a screen-shot of the game. Works well for most of the themes included with the device.
 
-Here is some sample output created by the RG Nano mix.:
+Here is some sample output created by the RG Nano Skraper Mix:
 
 |                                       |                                       |                                       |
 |:-------------------------------------:|:-------------------------------------:|:-------------------------------------:|
@@ -26,8 +26,8 @@ A sample of the above settings is as shown:
 
 ![Sample Skraper Settings for Media Tab](https://github.com/tobio-tenma/files/blob/main/RG-Nano-Scraper-Mix/sample-skraper-settings.png)
 
-## Stage 2 - Convert PNGs to JPGs and Maybe Clean Up
-### Note: This stage is **completely optional** but does drastically reduce the file size and should be in thoery slightly more efficient than the lossless PNG images produced by Skraper.
+## Stage 2 - Convert PNGs to JPGs with Optional Clean-Up
+### Note: This stage is **completely optional**. It can reduce the file size and should be in thoery slightly more efficient. Once again, **this is optional** and comes down to personal preference.
 
 The PowerShell script included creates JPG images (required for RG Nano) rom the Skraper provided PNG images and optionally purges PNG files as they are created.
 
@@ -57,7 +57,7 @@ Note: The "E:\" could be different depending on your system configuration. Pleas
 
 #### Conclusion
 
-After running the script, your RG Nano / micro SD card can be safely ejected and removed.
+After running the script, your RG Nano / micro SD card can be safely ejected and removed. 
 
 ## Sample Images
 

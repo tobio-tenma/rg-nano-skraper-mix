@@ -1,5 +1,5 @@
 # RG Nano Skraper Mix
-## Inspired by Tiny Best Set and forked from [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix) by **[EBZero](https://github.com/ebzero)**!
+## Inspired by and forked from [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix) by **[EBZero](https://github.com/ebzero)**!
 ### Optimimized with (🧨) for tiny devices
 
 If you've ever tried to generate media for your game collection on the RG Nano, you may have beeb shocked when you saw the results. This pretty much summs up the experience:

@@ -2,12 +2,12 @@
 ## Inspired by and forked from [garlic-onion-skraper-mix](https://github.com/ebzero/garlic-onion-skraper-mix) by **[EBZero](https://github.com/ebzero)**!
 ### Optimimized with (🧨) for tiny devices
 #### It has come to my attention that Anbernic's OS contains components that have been used without permission from, or attribution to, the creators and developers. That being said I **very strongly** urge you to consider alternatives such as [this great project](https://github.com/DrUm78/FunKey-OS/releases/tag/FunKey-OS-DrUm78) which is built from [FunKey OS](https://github.com/FunKey-Project/FunKey-OS) and made for the Nano. By switching, you will gain many benefits such as:
-- better user experience (say goodbye to being forced to boot into the clock
+- better user experience (no more forced boot into the clock)
 - 60 FPS performance
 - removal of sceen tearing issues
 - better battery usage and overall performance
-- a [rich ecosystem of apps and games](https://wiki.funkey-project.com/wiki/List_of_third-party_OPK_applications)
-- a [welcoming community](https://discord.gg/NUzDGHQk) providing their expertise and time
+- [rich ecosystem of apps and games](https://wiki.funkey-project.com/wiki/List_of_third-party_OPK_applications)
+- [welcoming community](https://discord.gg/NUzDGHQk) providing their expertise and time
 - Plus much more
 
 ## Introduction
@@ -67,6 +67,10 @@ Note: The "E:\" could be different depending on your system configuration. Pleas
 After running the script, your RG Nano / micro SD card can be safely ejected and removed and placed back into device.
 
 ## Screenshots
+### FunKey OS
+#### Coming soon...
+
+### Anbernic's OS
 Below are screenshots taken from each of the 11 themes provided by Anbernic:
 
 |                                       |                                       |                                       |                                       |
